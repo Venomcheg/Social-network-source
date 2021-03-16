@@ -1,0 +1,38 @@
+.nav {
+  grid-area: nav;
+  min-width: 150px;
+  background: linear-gradient(#1AB4E0, #1aceef);
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+a.active {
+  color: #005872;
+}
+.item {
+  display: flex;
+  align-items: center;
+  min-height: 55px;
+
+  border-bottom: 1.5px solid rgba(65, 65, 65, 0.2);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  flex: 0 1 55px;
+  background-color: rgba(0,0,0,0.1);
+  img {
+    filter: brightness(0) invert(1);
+  }
+}
+.navText {
+  font-size: 1rem;
+  padding: 0 10px;
+}
